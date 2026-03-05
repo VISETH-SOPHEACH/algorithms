@@ -1,0 +1,13 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int main()
+{
+  stack<int> n;
+  n.push(1);
+
+  cout << n.top();
+
+  return 0;
+}
