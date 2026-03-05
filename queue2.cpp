@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 struct Node
 {
@@ -55,11 +56,11 @@ int main()
   q.enqueue(30);
 
   // 3. View the front element
-  std::cout << "Front element is: " << q.getFront() << std::endl; // Output: 10
+  cout << "Front element is: " << q.getFront() << endl; // Output: 10
 
   // 4. Remove an element
   q.dequeue();
-  std::cout << "Front element after 1 dequeue: " << q.getFront() << std::endl; // Output: 20
+  cout << "Front element after 1 dequeue: " << q.getFront() << endl; // Output: 20
 
   return 0; // Signals the OS that the program finished successfully
 }
